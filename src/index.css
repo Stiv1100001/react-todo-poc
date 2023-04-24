@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ctp-sky
+}
+
+#root {
+  @apply h-screen w-screen grid place-content-center
+}
